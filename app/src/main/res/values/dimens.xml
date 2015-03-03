@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Header bar -->
+    <dimen name="height_normal">48dp</dimen>
+
+    <!-- Folders listview -->
+    <dimen name="listview_height">72dp</dimen>
+    <dimen name="listview_width">72dp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="list_item_margin">16dp</dimen>
+    <dimen name="list_item_padding_small">8dp</dimen>
+    <dimen name="list_item_thumbnail_width">56dp</dimen>
+    <dimen name="list_item_text_padding">20dp</dimen>
+
+    <!-- File info -->
+    <dimen name="margin_details">16dp</dimen>
+    <dimen name="margin_detail">6dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_xmedium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+
+    <dimen name="elevation_default">8dp</dimen>
+</resources>

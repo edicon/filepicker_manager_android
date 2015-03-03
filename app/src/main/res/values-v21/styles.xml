@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ManagerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/fp_blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="android:actionModeStyle">@style/ManagerTheme.ActionMode</item>
+        <item name="android:colorControlHighlight">@color/fp_blue</item>
+    </style>
+
+    <style name="ManagerTheme.ActionMode">
+        <item name="android:background">@color/gray</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_action_back</item>
+    </style>
+</resources>

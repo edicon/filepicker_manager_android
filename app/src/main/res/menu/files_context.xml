@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_export"
+        android:title="@string/action_export"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/action_move_to_folder"
+        android:title="@string/action_move_to_folder"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/action_save"
+        android:title="@string/action_save"
+        android:showAsAction="always"/>
+
+</menu>

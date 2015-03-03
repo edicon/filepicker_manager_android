@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Filepicker</string>
+    <string name="new_fpfile">New FPFile</string>
+    <string name="new_folder">New Folder</string>
+    <string name="name">Name</string>
+    <string name="slide_animation_duration">200</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="header_folders">Folders</string>
+    <string name="header_files">Files</string>
+
+    <!-- Toast messages -->
+    <string name="file_saved">The file has been saved</string>
+    <string name="file_already_saved">The file has been already saved</string>
+    <string name="save_needed">Save the file first</string>
+    <string name="name_missing">Name missing</string>
+    <string name="sending_file">Sending file to Filepicker</string>
+    <string name="file_added_to_filepicker">The file was added to Filepicker</string>
+    <string name="saving_file">Saving file…</string>
+    <string name="save_no_internet">Internet connection is required to save the file</string>
+    <string name="no_internet">No internet connection.</string>
+    <string name="new_item_added">New item was added</string>
+
+    <!-- Menus -->
+    <string name="action_save">Save</string>
+    <string name="action_export">Export</string>
+    <string name="action_move_to_folder">Move to folder</string>
+    <string name="action_share">Share</string>
+
+    <!-- File view -->
+    <string name="unknown_file">Unknown file</string>
+    <string name="unknown">Unknown</string>
+    <string name="root_folder">Root folder</string>
+
+    <!-- Dialog new folder -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+    <!-- Share -->
+    <string name="share_file_via">Share the file via</string>
+
+    <!-- Save-->
+    <string name="question_continue">Continue</string>
+    <string name="question_save">Save this file?</string>
+    <string name="save_required">This action requires saving this file locally.</string>
+
+    <!-- Move dialog -->
+    <string name="select_destination_folder">Select destination folder</string>
+    <string name="choose_file">Choose a file</string>
+</resources>

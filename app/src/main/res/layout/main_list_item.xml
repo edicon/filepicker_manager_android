@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="@dimen/listview_height"
+    android:gravity="center_vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageButton
+        android:layout_width="@dimen/listview_width"
+        android:layout_height="match_parent"
+        android:id="@+id/imageThumbnail"
+        android:scaleType="centerInside"
+        android:paddingTop="@dimen/list_item_padding_small"
+        android:paddingBottom="@dimen/list_item_padding_small"
+        android:paddingLeft="@dimen/list_item_padding"
+        android:paddingRight="@dimen/list_item_padding"
+        android:background="@null"/>
+
+    <LinearLayout
+        android:id="@+id/layoutDescription"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/list_item_padding"
+        android:paddingRight="@dimen/list_item_padding"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/dark"
+            android:id="@+id/tvName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_micro"
+            android:id="@+id/tvInfo" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/img_btn_info"
+        android:src="@drawable/ic_action_info"
+        android:visibility="invisible"
+        android:padding="@dimen/list_item_padding"
+        android:paddingTop="@dimen/list_item_padding_small"
+        android:paddingBottom="@dimen/list_item_padding_small"
+        android:background="@null"/>
+</LinearLayout>
