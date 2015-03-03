@@ -7,12 +7,12 @@ The goal of this app is to show how simple it is to add the [filepicker android 
 
 Usage
 =====
-This app is distributed as Android Studio project.
+This app is distributed as the Android Studio project.
 
 Steps to use it?
 
-1. Clone the repo and open it as Android Studio project
-2. Go to `io.filepicker.manager.utils.Constants`
+1. Clone the repo and open it as the Android Studio project
+2. Go to `io.filepicker.manager.utils.Constants` class
 3. Set your Filepicker API key in the line
 
 ```java
