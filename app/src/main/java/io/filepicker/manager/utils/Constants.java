@@ -8,7 +8,7 @@ public final class Constants {
     // Ensure noninstantiability
     private Constants(){}
 
-    public static final String API_KEY = "PUT YOUR API KEY HERE";
+    public static final String API_KEY = "AoHlHquEYTPyM4xiQroayz";
 
     // File types
     public static final String IMAGE_JPEG = "image/jpeg";
